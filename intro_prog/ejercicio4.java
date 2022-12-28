@@ -1,9 +1,9 @@
 package intro_prog;
 
 /**
- * ejercicio4
+ * Ejercicio4
  */
-public class ejercicio4 {
+public class Ejercicio4 {
     public static void main(String[] args) {
         verifyNumber(-10);
         cicloWhile(2);
