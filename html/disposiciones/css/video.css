@@ -1,0 +1,18 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.video{
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+}
+.header{
+    top: 20px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
