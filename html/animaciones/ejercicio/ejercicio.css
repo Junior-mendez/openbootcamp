@@ -17,8 +17,8 @@ body{
     
 }
 .btn-modern:hover{
-    transform: translateX(-5px);
-    background-color: rgb(205, 234, 205);
+    transform: translateY(-5px);
+    background-color: greenyellow;
     color: white;
-    border-bottom: 2px solid rgb(136, 212, 136);
+    box-shadow:  0 5px 10px rgb(192, 215, 157);
 }
