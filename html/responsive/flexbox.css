@@ -1,0 +1,21 @@
+.contenedor{
+    background-color: yellow;
+    padding: 0.25rem;
+    display: flex;
+    /* flex-direction: column; */
+    gap: 0.5rem;
+    min-height: 5rem;
+    /* Eje horixontal -principal */
+    justify-content: space-around;
+    /* Eje secundario -vertical */
+    align-items: center;
+    flex-wrap: wrap;
+}
+.item{
+    background-color: salmon;
+    padding: 0.25rem;
+    width: 10rem;
+}
+.item2{
+    align-self: stretch;
+}
