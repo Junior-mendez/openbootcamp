@@ -1,5 +1,7 @@
 package com.example.obrestdatajpa.entities;
 
+import io.swagger.annotations.ApiModelProperty;
+
 import javax.annotation.processing.Generated;
 import javax.persistence.*;
 import java.time.LocalDate;
@@ -11,6 +13,7 @@ public class Book {
     //atributos
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @ApiModelProperty("Clave ficticia autoincremental tipo Long")
     private Long id;
     private String title;
     private String author;
